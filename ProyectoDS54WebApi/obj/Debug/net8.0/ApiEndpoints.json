@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "ProyectoDS54WebApi.Controllers.InicioController",
+    "Method": "ObtenerPacientes",
+    "RelativePath": "api/Inicio/ObtenerPacientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parametros",
+        "Type": "ProyectoDS54WebApi.Models.PsicologosParametros",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoDS54WebApi.Controllers.LoginController",
+    "Method": "Autenticar",
+    "RelativePath": "api/Login/Autenticar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parametros",
+        "Type": "ProyectoDS54WebApi.Models.LoginParametros",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
